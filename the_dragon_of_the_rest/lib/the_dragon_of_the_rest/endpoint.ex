@@ -1,6 +1,8 @@
 defmodule TheDragonOfTheRest.Endpoint do
   use Plug.Router # dispatches incoming requests based on the path and method
 
+  require Logger
+
   plug(:match)
 
   # Plug.Parsers handles application/json requests with Poison
@@ -32,6 +34,12 @@ defmodule TheDragonOfTheRest.Endpoint do
     }
   end
 
-  def start_link(_opts),
-    do: Plug.Adapters.Cowboy2.http(__MODULE__, [])
+  def start_link(_opts) do
+    with {:ok, [port: port] = config} <- Application.fetch_env(:the_dragon_of_the_rest, __MODULE__) do
+      Logger.info("Starting server at http://localhost:#{port}/")
+      Plug.Adapters.Cowboy2.http(__MODULE__, [], config)
+    end
+  end
+    
+  
 end

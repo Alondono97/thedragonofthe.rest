@@ -19,7 +19,6 @@ defmodule TheDragonOfTheRest.Router do
   end
 
   defp get_quote do
-    # IO.puts File.open("quotes.txtss")
     List.first(get_quotes())
   end 
 
