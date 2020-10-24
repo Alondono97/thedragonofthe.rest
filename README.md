@@ -13,11 +13,13 @@ GET http://thedragonofthe.rest/quote
 
 Single end point elixir API built with Plug and Cowboy.
 
-To run locally:
+<!-- To run locally:
 
+Make sure you have elixir installed -->
+<!-- 
 ```
   mix run --no-halt
-```
+``` -->
 
 <!-- # Licenses: -->
 
@@ -25,7 +27,7 @@ To run locally:
 
 # Sources
 
-A lot of code used in this project sourced from this [blog](https://blog.lelonek.me/minimal-elixir-http2-server-64188d0c1f3a). However, if you are looking to build something similar you will have to supplement from other sources as well because this blog post misses some necessary config settings to deploy to Heroku as well as getting some aspects of the app running locally. 
+A lot of code used in this project is sourced from this [blog](https://blog.lelonek.me/minimal-elixir-http2-server-64188d0c1f3a). However, if you are looking to build something similar you will have to supplement from other sources because this blog post misses some necessary config settings to deploy to Heroku as well as getting some aspects of the app running locally. 
 
 [Plug Docs](https://hexdocs.pm/plug/readme.html)
 
