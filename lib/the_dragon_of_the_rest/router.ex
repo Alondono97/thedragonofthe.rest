@@ -8,7 +8,7 @@ defmodule TheDragonOfTheRest.Router do
   get "/" do
     conn
     |> put_resp_content_type("application/json")
-    |>put_resp_header("Access-Control-Allow-Origin:", "*")
+    |>put_resp_header("Access-Control-Allow-Origin", "*")
     |> send_resp(200, Poison.encode!(message()))
   end
 
