@@ -1,0 +1,97 @@
+html, body{
+    height: 100%;
+    margin:0;
+}
+
+body{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* font-family: 'Chonburi', cursive; */
+}
+h2{
+    font-size: 2em;
+}
+
+a{
+    color: black;
+    padding-right: 2em;
+}
+h3{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom:0.2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main{
+    max-width: 800px;
+    margin: 0rem auto 1rem auto;
+    padding: 2rem;
+    flex-grow: 1;
+}
+
+
+.title{
+    text-align: center;
+    margin-top: 0em;
+}
+.line{
+    width: 75%
+}
+.subtitle{
+    text-align: center;
+}
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    border-style: solid;
+    border-color: rgb(143, 131, 66);
+    border-radius: 0.5em;
+    /* width: 40em; */
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 1em;
+}
+.request{
+    margin-bottom: 1rem;
+    /* font-size: 1.25em; */
+    /* font-weight: 600; */
+    display: flex;
+    justify-content: center;
+}
+.get{
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+.refresh{
+    margin-left: 0.5em;
+    font-size: 0.8em;
+    font-weight: 100;
+    /* text-align: center; */
+    cursor: pointer;
+    border-style: dotted;
+    padding: 0.4em;
+
+}
+.indent{
+    margin-left: 2em;
+    font-size: 1.5em;
+}
+
+.repo{
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.github{
+    font-weight: 500;
+    padding-right: 0em;
+}
+
+.tile{
+    text-align: center;
+}
