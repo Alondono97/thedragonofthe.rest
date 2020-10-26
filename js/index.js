@@ -1,7 +1,7 @@
 getQuote();
 
 function getQuote() {
-    fetch('http://thedragonofthe.rest/quote')
+    fetch('http://api.thedragonofthe.rest/quote')
         .then((resp) => resp.json())
         .then(function (data) {
             console.log("data:", data);
