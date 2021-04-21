@@ -10,8 +10,6 @@
 GET http://api.thedragonofthe.rest/quote
 ```
 
-No longer deployed, but feel free to use as reference.
-
 # Development
 
 Single end point elixir API built with Plug and Cowboy.
