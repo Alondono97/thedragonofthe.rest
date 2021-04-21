@@ -10,7 +10,7 @@
 GET http://api.thedragonofthe.rest/quote
 ```
 
-Not currently deployed, but feel free to use as reference.
+Not longer deployed, but feel free to use as reference.
 
 # Development
 
