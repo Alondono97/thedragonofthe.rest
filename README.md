@@ -3,11 +3,14 @@
 # Decription
 ### A Free REST API that returns Uncle Iroh quotes from Avatar: The Last Airbender.
 
+
 # Usage
 
 ```
 GET http://api.thedragonofthe.rest/quote
 ```
+
+Not currently deployed, but feel free to use as reference.
 
 # Development
 
