@@ -6,7 +6,7 @@
 # Usage
 
 ```
-GET http://thedragonofthe.rest/quote
+GET http://api.thedragonofthe.rest/quote
 ```
 
 # Development
