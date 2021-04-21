@@ -10,7 +10,7 @@
 GET http://api.thedragonofthe.rest/quote
 ```
 
-Not longer deployed, but feel free to use as reference.
+No longer deployed, but feel free to use as reference.
 
 # Development
 
@@ -30,7 +30,7 @@ Make sure you have elixir installed -->
 
 # Sources
 
-A lot of code used in this project is sourced from this [blog](https://blog.lelonek.me/minimal-elixir-http2-server-64188d0c1f3a). However, if you are looking to build something similar you will have to supplement from other sources because this blog post misses some necessary config settings to deploy to Heroku as well as getting some aspects of the app running locally. 
+A lot of code used in this project is sourced from this [blog](https://blog.lelonek.me/minimal-elixir-http2-server-64188d0c1f3a). However, if you are looking to build something similar you will have to supplement from other sources because this blog post misses some config settings necessary for getting some aspects of the app running locally and deploying to Heroku. 
 
 [Plug Docs](https://hexdocs.pm/plug/readme.html)
 
