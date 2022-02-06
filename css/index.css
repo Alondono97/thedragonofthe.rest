@@ -95,3 +95,25 @@ h3{
 .tile{
     text-align: center;
 }
+
+.loading{
+    animation: spin 10s linear infinite;
+}
+
+.static{
+    animation: finish_spin 1s linear 1;
+}
+
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+@keyframes finish_spin { 
+    100% { 
+        -webkit-transform: rotate(45deg); 
+        transform:rotate(45deg); 
+    } 
+}
